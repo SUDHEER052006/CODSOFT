@@ -1,0 +1,191 @@
+.home{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.home-left{
+    height: 10px;
+    width: 10px;
+}
+.home-right{
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: monospace;
+    transition: 0.8s;
+}
+.anchor{
+    border: black;
+    border-style: groove;
+    border-spacing: 5cap;
+    padding: 10px;
+    margin: 10px;
+}
+.home-centre{
+    display: block;
+    text-size-adjust: 50px;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: black;
+}
+.anchor {
+    display: block;
+    cursor: pointer;
+    width: 200px;
+    height: 30px;
+    background: #4E9CAF;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 100px;
+    background-color: rgb(171, 216, 210);
+
+}
+.about-left{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 50px;
+    padding-right: 750px;
+    color: rgb(4, 49, 74);
+}
+.skill-left{
+    background-color: rgb(233, 234, 221);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.web{
+    display: flex;
+    flex-direction: row;
+    font-size: 50px;
+    font-family: monospace;
+    margin: 0px;
+    height: 100px;
+    width: 100px;
+}
+.python{
+    display: flex;
+    flex-direction: row;
+    font-size: 50px;
+    font-family: monospace;
+    margin: 0px;
+    height: 100px;
+    width: 100px;
+}
+.stack{
+    display: flex;
+    flex-direction: row;
+    font-size: 50px;
+    font-family: monospace;
+    margin: 0px;
+    height: 100px;
+    width: 100px;
+    padding-bottom: 20px;
+}
+.project{
+    background-color: rgb(157, 224, 248);
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 50px; 
+    margin: 0px;  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 100px;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    border: black;
+    border-style: inset;
+    font-family: cursive;
+}
+.RESUME{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #baf0b6;
+}
+.btn{
+    border: 1px solid #34d3db;
+    background: none;
+    padding: 10px 20px;
+    font-size: 60px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+  }
+.newbt{
+    color: #3498db;
+  }
+.newbt:hover{
+    color: #fff;
+  }
+.newbt::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #12c2d9;
+    z-index: -1;
+    transition: 0.8s;
+  }
+.newbt::before{
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+  }
+.newbt:hover::before{
+    height: 180%;
+  }
+.text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    justify-content: center;
+
+}
+.img{
+    height: 350px;
+    width: 350px;
+}
+.contact{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 50px;
+    font-size: 25px;
+    background-color: rgb(160, 184, 205);
+    margin: 0px;
+}
+.media{
+    height: 100px;
+    width: 100px;
+}
+.contim{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyright{
+    text-align: center;
+}
